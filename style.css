@@ -12,7 +12,12 @@ body {
     align-items: center;
 
 }
+h2 {
+    font-size: 30pt;
+}
 .content {
+    color: black;
+    font-size: 20pt;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,10 +46,9 @@ hr {
     font-family: Arial;
     width: fit-content;
 }
-
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 20pt;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -63,7 +67,7 @@ hr {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 20pt;
     border: none;
     outline: none;
     color: white;
@@ -82,18 +86,18 @@ hr {
     display: none;
     position: absolute;
     background-color: #8C867D;
-    min-width: 150px;
-    max-width: 90%;
+    min-width: 140px;
+    max-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     height: fit-content;
 }
 
 .dropdown-content a {
-    font-size: 11pt;
+    font-size: 20pt;
     float: none;
     color: antiquewhite;
-    padding: 12px 16px;
+    padding: 12px 20px;
     width: 100%;
     text-decoration: none;
     display: block;
