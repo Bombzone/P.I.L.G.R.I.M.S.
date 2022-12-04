@@ -122,13 +122,13 @@ hr {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-size: 350%;
+    font-size: 6.5vh;
     width: fit-content;
 }
 .title {
     padding: 0;
     text-align: center;
     margin: 0;
-    font-size: 410%;
+    font-size: 10vh;
     width: fit-content;
 }
